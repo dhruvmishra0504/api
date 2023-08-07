@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Recommender</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+  <div class="container">
+    <h1>Recipe Recommender</h1>
+    <div class="input-container">
+      <label for="cuisine">Select Cuisine:</label>
+      <select id="cuisine">
+        <option value="italian">Italian</option>
+        <option value="indian">Indian</option>
+        <option value="mexican">Mexican</option>
+        <!-- Add more options here -->
+      </select>
+    </div>
+    <div class="input-container">
+      <label for="diet">Select Diet:</label>
+      <select id="diet">
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="pescatarian">Pescatarian</option>
+        <!-- Add more options here -->
+      </select>
+    </div>
+    <div class="input-container">
+        <label for="Include">Include:</label>
+        <select id="include">
+          <option value="tomato">Tomato</option>
+          <option value="cheese">Cheese</option>
+         
+         
+          <!-- Add more options here -->
+        </select>
+      </div>
+    <div class="input-container">
+      <label for="intolerance">Select Intolerance:</label>
+      <select id="intolerance">
+        <option value="dairy">Dairy</option>
+        <option value="gluten">Gluten</option>
+        <option value="nuts">Nuts</option>
+       
+        <!-- Add more options here -->
+      </select>
+    </div>
+    <button id="submit-btn">Get Recipes</button>
+    <div id="recipes-container"></div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
